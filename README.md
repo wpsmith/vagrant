@@ -7,9 +7,10 @@ Included are two Multisites and a plugin test bed.
 
 * http://multisite.dev - Subdomain Multisite (wordpress-musubdomain). Predefined vhost subdomains but did not build out: foo, bar, and baz.
 * http://folder.multisite.dev - Subfolder Multisite (wordpress-mufolder)
+* http://local.multisite-pre.dev - Ready for Multisite but not really (wordpress-mupre)
 * http://local.plugins.dev - Plugin tests (wordpress-plugins)
 
-The basic design of my scripts are from [Luke Woodward's auto setup scripts](https://github.com/lkwdwrd/vvv-auto-setup)
+The basic design of my scripts are from [Luke Woodward's auto setup scripts](https://github.com/lkwdwrd/vvv-auto-setup) and the only special one is the mupre install. That one wipes itself every time you provision, so you always have a clean slate to blow up Multisite. Can you tell I do this a lot? It does come with the first define written, though, to save a step.
 
 # Usage
 

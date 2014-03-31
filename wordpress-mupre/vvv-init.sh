@@ -25,7 +25,7 @@ fi
 	# Use WP CLI to create a `wp-config.php` file
 	wp core config --dbname="$database" --dbuser=$dbuser --dbpass=$dbpass --extra-php < ../wp-constants --allow-root
 	# Reset, just in case...
-	wp db reset --yes
+	wp db reset --yes --allow-root
 	# Use WP CLI to install WordPress
 	wp core install --url=$domain --title="$site_name" --admin_user=$admin_user --admin_password=$admin_pass --admin_email=$admin_email --allow-root
 	# Upgrade all WordPress.org plugins
