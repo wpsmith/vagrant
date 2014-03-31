@@ -4,7 +4,7 @@
 site_name='WordPress Multisite Subfolder (stable)'
 
 # This sets up the name of the DB and the user and password for the DB.
-database='mufolder_db'
+database='wordpress_mufolder'
 dbuser='wp'
 dbpass='wp'
 

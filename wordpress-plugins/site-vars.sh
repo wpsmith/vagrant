@@ -4,7 +4,7 @@
 site_name='WordPress Plugins Testing (stable)'
 
 # This sets up the name of the DB and the user and password for the DB.
-database='plugins_db'
+database='wordpress_plugins'
 dbuser='wp'
 dbpass='wp'
 

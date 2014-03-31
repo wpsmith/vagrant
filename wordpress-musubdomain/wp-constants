@@ -2,3 +2,6 @@
 define('WP_DEBUG', true );
 define( 'SCRIPT_DEBUG', true );
 define( 'SAVEQUERIES', true );
+
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
