@@ -5,5 +5,8 @@
 # to match the hosts designated here.
 multisite.dev
 foo.multisite.dev
+foomultisite.dev
 bar.multisite.dev
+barmultisite.dev
 baz.multisite.dev
+bazmultisite.dev
